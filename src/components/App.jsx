@@ -2,13 +2,17 @@ import React from 'react';
 import Header from './Header';
 import WeeklySchedule from './WeeklySchedule';
 import MonthlyProduce from './MonthlyProduce';
+import { Switch, Route } from 'react-router-dom';
 
 function App(){
   return (
     <div>
       <Header/>
-      <WeeklySchedule/>
-      <MonthlyProduce/>
+
+      <Switch>
+        <Route exact path='/' component={WeeklySchedule} />
+        <Route exact path='/produce' component={MonthlyProduce} />
+      </Switch>
       <style global jsx>{`
           body {
             background-color: #DDEFF3;

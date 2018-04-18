@@ -3,8 +3,7 @@ import React from 'react';
 function Header(){
   return (
     <div>
-      <h1>Welcome to the Minneapolis Farmer's Market</h1>
-      <hr></hr>
+      <h1>Welcome to the Portland Farmer's Market</h1>
       <style jsx>{`
           div {
             text-align: center;
