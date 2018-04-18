@@ -13,7 +13,7 @@ function Day(props){
           margin-top: 5px;
         }
         div {
-          background-color: #DDEFF3;
+          background-color: white;
           border: 2px solid grey;
           display: inline-block;
           width: 120px;

@@ -6,8 +6,10 @@ function Header(){
       <h1>Welcome to the Minneapolis Farmer's Market</h1>
       <hr></hr>
       <style jsx>{`
-          text-align: center;
-          font-weight: bold;
+          div {
+            text-align: center;
+            font-weight: bold;
+          }
           `}
       </style>
     </div>
