@@ -7,6 +7,13 @@ function App(){
     <div>
       <Header/>
       <WeeklySchedule/>
+      <style jsx>{`
+          div {
+            margin: auto;
+            max-width: 600px;
+          }
+            `}
+      </style>
     </div>
   );
 }

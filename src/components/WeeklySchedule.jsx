@@ -43,6 +43,7 @@ const masterDayList = [
 function WeeklySchedule(){
   return (
     <div>
+      <h2 id="schedule-header">Our Weekly Schedule</h2>
       {masterDayList.map((day, index) =>
         <Day day={day.day}
           location={day.location}
@@ -50,6 +51,17 @@ function WeeklySchedule(){
           booth={day.booth}
           key={index}/>
       )}
+      <hr></hr>
+      <style jsx>{`
+        div {
+          text-align: center;
+        }
+        #schedule-header {
+          font-weight: lighter;
+          margin-bottom: 4px;
+        }
+            `}
+      </style>
     </div>
   );
 }
