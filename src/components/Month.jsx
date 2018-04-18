@@ -8,8 +8,7 @@ function Month(props){
       <h2>{props.month}</h2>
       <hr></hr>
       <ul>{props.selection.map((name, index) =>
-        <ProduceType name={name}
-          key={index}/>
+        <li key={index}>{name}</li>
       )}
       </ul>
       <style jsx>{`
