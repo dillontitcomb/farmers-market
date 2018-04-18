@@ -1,8 +1,13 @@
 import React from 'react';
+import Header from './Header';
+import WeeklySchedule from './WeeklySchedule';
 
 function App(){
   return (
-    <h1>React project works!</h1>
+    <div>
+      <Header/>
+      <WeeklySchedule/>
+    </div>
   );
 }
 
