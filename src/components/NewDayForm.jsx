@@ -19,7 +19,7 @@ function NewDayForm(){
         <input
           type='text'
           id='booth'
-          placeholder='Booth name'/>
+          placeholder='Your booth name'/>
         <button type='submit'>Add Day</button>
       </form>
     </div>
