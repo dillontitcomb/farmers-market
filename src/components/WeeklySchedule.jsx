@@ -1,5 +1,6 @@
 import React from 'react';
 import Day from './Day';
+import cutePup from '../assets/images/cutepuppy.jpeg';
 
 const masterDayList = [
   {
@@ -44,6 +45,8 @@ function WeeklySchedule(){
   return (
     <div>
       <h2 id="schedule-header">Our Weekly Schedule</h2>
+      <img src={cutePup}/>
+      <hr></hr>
       {masterDayList.map((day, index) =>
         <Day day={day.day}
           location={day.location}
@@ -59,6 +62,9 @@ function WeeklySchedule(){
         #schedule-header {
           font-weight: lighter;
           margin-bottom: 4px;
+        }
+        img {
+          border: 10px dotted orange;
         }
             `}
       </style>
