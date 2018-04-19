@@ -3,6 +3,8 @@ import Header from './Header';
 import WeeklySchedule from './WeeklySchedule';
 import MonthlyProduce from './MonthlyProduce';
 import { Switch, Route } from 'react-router-dom';
+import NewDayForm from './NewDayForm';
+
 
 function App(){
   return (
@@ -12,6 +14,7 @@ function App(){
       <Switch>
         <Route exact path='/' component={WeeklySchedule} />
         <Route exact path='/produce' component={MonthlyProduce} />
+        <Route exact path='/newday' component={NewDayForm} />
       </Switch>
       <style global jsx>{`
           body {

@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ProduceType from './ProduceType';
 
 function Month(props){
   return (
